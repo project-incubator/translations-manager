@@ -1,0 +1,43 @@
+.icons {
+  margin-right: 4px;
+}
+
+.table{
+  ::selection {
+    background: #e6e6e6;
+  }
+
+  .highlight {
+    background: rgb(230 230 120 / 30%) !important;
+  }
+
+  .toolbar {
+    display: flex;
+    align-items: center;
+
+    & > * {
+      margin-right: 16px;
+    }
+  }
+
+  :global(.p-treetable-wrapper) {
+    &::-webkit-scrollbar {
+      width: 8px;
+      background: transparent;
+      padding: 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: #e2e2e2;
+    }
+  }
+
+  .edit-input {
+    padding: 0.4rem 0.5rem !important;
+    width: 100%;
+  }
+
+  .cell {
+    width: 100%;
+  }
+}
